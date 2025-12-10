@@ -1,0 +1,134 @@
+Accepts commands (case insensitive): CREATE, INSERT INTO, INSERT, SELECT FROM
+Variable names (first character is a letter, other letters/digits/_)
+Command is read until ';'
+To finish, type 'stop;'
+
+c: Table "cat" was created.
+c: Values were inserted into "cat".
+c: Values were inserted into "cat".
+c: Values were inserted into "cat".
+c: Values were inserted into "cat".
+c: Values were inserted into "cat".
+c: Values were inserted into "cat".
+c: Values were inserted into "cat".
+c: Values were inserted into "cat".
+c: Table "dog" was created.
+c: Values were inserted into "dog".
+c: Values were inserted into "dog".
+c: Values were inserted into "dog".
+c: Values were inserted into "dog".
+c: Values were inserted into "dog".
+c: Values were inserted into "dog".
+c: Values were inserted into "dog".
+c: Values were inserted into "dog".
+c: ['1', '2', '3', '4', '5', '6', '7', '8']
+------------
+['a', 'b', 'c', 'd', 'b', 'b', 'b', 'b']
+['a', 'b', 'c', 'd', 'a', 'a', 'a', 'a']
+['a', 'b', 'c', 'd', 'i', 'j', 'k', 'l']
+['a', 'b', 'c', 'd', 'a', 'j', 'd', 'c']
+['a', 'b', 'c', 'd', 'b', 'b', 'b', 'b']
+['a', 'b', 'c', 'd', 'a', 'a', 'a', 'a']
+['a', 'b', 'c', 'd', 'i', 'j', 'k', 'l']
+['a', 'b', 'c', 'd', 'a', 'j', 'd', 'c']
+['a', 'a', 'e', 'f', 'b', 'b', 'b', 'b']
+['a', 'a', 'e', 'f', 'a', 'a', 'a', 'a']
+['a', 'a', 'e', 'f', 'i', 'j', 'k', 'l']
+['a', 'a', 'e', 'f', 'a', 'j', 'd', 'c']
+['a', 'a', 'e', 'f', 'b', 'b', 'b', 'b']
+['a', 'a', 'e', 'f', 'a', 'a', 'a', 'a']
+['a', 'a', 'e', 'f', 'i', 'j', 'k', 'l']
+['a', 'a', 'e', 'f', 'a', 'j', 'd', 'c']
+['a', 'a', 'a', 'g', 'b', 'b', 'b', 'b']
+['a', 'a', 'a', 'g', 'a', 'a', 'a', 'a']
+['a', 'a', 'a', 'g', 'i', 'j', 'k', 'l']
+['a', 'a', 'a', 'g', 'a', 'j', 'd', 'c']
+['a', 'a', 'a', 'g', 'b', 'b', 'b', 'b']
+['a', 'a', 'a', 'g', 'a', 'a', 'a', 'a']
+['a', 'a', 'a', 'g', 'i', 'j', 'k', 'l']
+['a', 'a', 'a', 'g', 'a', 'j', 'd', 'c']
+['a', 'a', 'a', 'a', 'b', 'b', 'b', 'b']
+['a', 'a', 'a', 'a', 'a', 'a', 'a', 'a']
+['a', 'a', 'a', 'a', 'i', 'j', 'k', 'l']
+['a', 'a', 'a', 'a', 'a', 'j', 'd', 'c']
+['a', 'a', 'a', 'a', 'b', 'b', 'b', 'b']
+['a', 'a', 'a', 'a', 'a', 'a', 'a', 'a']
+['a', 'a', 'a', 'a', 'i', 'j', 'k', 'l']
+['a', 'a', 'a', 'a', 'a', 'j', 'd', 'c']
+['a', 'b', 'c', 'd', 'b', 'b', 'b', 'b']
+['a', 'b', 'c', 'd', 'a', 'a', 'a', 'a']
+['a', 'b', 'c', 'd', 'i', 'j', 'k', 'l']
+['a', 'b', 'c', 'd', 'a', 'j', 'd', 'c']
+['a', 'b', 'c', 'd', 'b', 'b', 'b', 'b']
+['a', 'b', 'c', 'd', 'a', 'a', 'a', 'a']
+['a', 'b', 'c', 'd', 'i', 'j', 'k', 'l']
+['a', 'b', 'c', 'd', 'a', 'j', 'd', 'c']
+['a', 'a', 'e', 'f', 'b', 'b', 'b', 'b']
+['a', 'a', 'e', 'f', 'a', 'a', 'a', 'a']
+['a', 'a', 'e', 'f', 'i', 'j', 'k', 'l']
+['a', 'a', 'e', 'f', 'a', 'j', 'd', 'c']
+['a', 'a', 'e', 'f', 'b', 'b', 'b', 'b']
+['a', 'a', 'e', 'f', 'a', 'a', 'a', 'a']
+['a', 'a', 'e', 'f', 'i', 'j', 'k', 'l']
+['a', 'a', 'e', 'f', 'a', 'j', 'd', 'c']
+['a', 'a', 'a', 'g', 'b', 'b', 'b', 'b']
+['a', 'a', 'a', 'g', 'a', 'a', 'a', 'a']
+['a', 'a', 'a', 'g', 'i', 'j', 'k', 'l']
+['a', 'a', 'a', 'g', 'a', 'j', 'd', 'c']
+['a', 'a', 'a', 'g', 'b', 'b', 'b', 'b']
+['a', 'a', 'a', 'g', 'a', 'a', 'a', 'a']
+['a', 'a', 'a', 'g', 'i', 'j', 'k', 'l']
+['a', 'a', 'a', 'g', 'a', 'j', 'd', 'c']
+['a', 'a', 'a', 'a', 'b', 'b', 'b', 'b']
+['a', 'a', 'a', 'a', 'a', 'a', 'a', 'a']
+['a', 'a', 'a', 'a', 'i', 'j', 'k', 'l']
+['a', 'a', 'a', 'a', 'a', 'j', 'd', 'c']
+['a', 'a', 'a', 'a', 'b', 'b', 'b', 'b']
+['a', 'a', 'a', 'a', 'a', 'a', 'a', 'a']
+['a', 'a', 'a', 'a', 'i', 'j', 'k', 'l']
+['a', 'a', 'a', 'a', 'a', 'j', 'd', 'c']
+c: ['1', '2', '3', '4', '5', '6', '7', '8']
+------------
+['a', 'b', 'c', 'd', 'a', 'j', 'd', 'c']
+['a', 'b', 'c', 'd', 'a', 'j', 'd', 'c']
+['a', 'a', 'a', 'g', 'a', 'a', 'a', 'a']
+['a', 'a', 'a', 'g', 'a', 'a', 'a', 'a']
+['a', 'a', 'a', 'a', 'a', 'a', 'a', 'a']
+['a', 'a', 'a', 'a', 'a', 'a', 'a', 'a']
+['a', 'b', 'c', 'd', 'a', 'j', 'd', 'c']
+['a', 'b', 'c', 'd', 'a', 'j', 'd', 'c']
+['a', 'a', 'a', 'g', 'a', 'a', 'a', 'a']
+['a', 'a', 'a', 'g', 'a', 'a', 'a', 'a']
+['a', 'a', 'a', 'a', 'a', 'a', 'a', 'a']
+['a', 'a', 'a', 'a', 'a', 'a', 'a', 'a']
+c: ['1', '2', '3', '4']
+------------
+['a', 'a', 'e', 'f']
+['a', 'a', 'a', 'g']
+['a', 'a', 'a', 'a']
+['a', 'a', 'e', 'f']
+['a', 'a', 'a', 'g']
+['a', 'a', 'a', 'a']
+c: ['1', '2', '3', '4']
+------------
+['a', 'a', 'a', 'a']
+['a', 'a', 'a', 'a']
+c: ['1', '2', '3', '4', '5', '6', '7', '8']
+------------
+['a', 'b', 'c', 'd', 'a', 'a', 'a', 'a']
+['a', 'b', 'c', 'd', 'a', 'a', 'a', 'a']
+['a', 'a', 'e', 'f', 'a', 'a', 'a', 'a']
+['a', 'a', 'e', 'f', 'a', 'a', 'a', 'a']
+['a', 'a', 'a', 'g', 'a', 'a', 'a', 'a']
+['a', 'a', 'a', 'g', 'a', 'a', 'a', 'a']
+['a', 'a', 'a', 'a', 'a', 'a', 'a', 'a']
+['a', 'a', 'a', 'a', 'a', 'a', 'a', 'a']
+['a', 'b', 'c', 'd', 'a', 'a', 'a', 'a']
+['a', 'b', 'c', 'd', 'a', 'a', 'a', 'a']
+['a', 'a', 'e', 'f', 'a', 'a', 'a', 'a']
+['a', 'a', 'e', 'f', 'a', 'a', 'a', 'a']
+['a', 'a', 'a', 'g', 'a', 'a', 'a', 'a']
+['a', 'a', 'a', 'g', 'a', 'a', 'a', 'a']
+['a', 'a', 'a', 'a', 'a', 'a', 'a', 'a']
+['a', 'a', 'a', 'a', 'a', 'a', 'a', 'a']
+c: 
